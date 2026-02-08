@@ -36,6 +36,10 @@ creates a clear operational need.
 
 Absent such conditions, no structural change is required.
 
+## Suggested Search Keywords
+
+- post-incident governance
+- institutional failure modes
 
 ### 1. Minimal Institutional Friction Set (10 Elements)
 A minimal, low-side-effect set of institutional mechanisms that:
