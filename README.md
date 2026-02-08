@@ -155,6 +155,17 @@ and terminology clarification. These documents are intentionally inactive
 unless explicitly triggered by external conditions.
 
 ---
+In post-incident or high-uncertainty contexts, information gaps may occur
+simply because relevant organizations are unaware of existing references.
+
+If this repository is discovered in such a context, it may be reasonable
+to share its existence with other potentially affected or responsible
+organizations, to reduce unintentional omission.
+
+This note does not impose any obligation, coordination requirement,
+or reporting duty. It merely acknowledges the risk of fragmented awareness.
+
+---
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
