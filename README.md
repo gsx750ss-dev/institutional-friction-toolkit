@@ -133,11 +133,12 @@ following an initial execution.
 - No enforcement, compliance, or obligation is implied.
 
 ---
+Additional reference placeholders may exist for post-incident stabilization
+and terminology clarification. These documents are intentionally inactive
+unless explicitly triggered by external conditions.
 
+---
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
 
-Additional reference placeholders may exist for post-incident stabilization
-and terminology clarification. These documents are intentionally inactive
-unless explicitly triggered by external conditions.
