@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "Institutional Reference Materials for Recursive AI Incidents"
+type: other
+url: https://github.com/gsx750ss-dev/institutional-friction-toolkit
+abstract: >
+  Reference-only materials for institutional review,
+  responsibility clarification, and post-incident stabilization
+  related to recursive or autonomous AI systems.
