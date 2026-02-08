@@ -19,3 +19,32 @@ or curate this document outside the conditions stated above.
 This document is intentionally left minimal at creation time.
 
 Content will be added in a subsequent step.
+
+# Post-Incident Institutional Stabilization (Reference)
+
+## Purpose
+This document provides a neutral reference for institutional stabilization
+after incidents involving recursive or autonomous AI systems.
+
+It does not propose policies, mandates actions, or assign responsibility.
+
+## Scope
+- Reference-only material
+- No enforcement or recommendations
+- No attribution of fault or intent
+
+## Typical Immediate Failures Observed
+- Acceleration of competitive deployment
+- Informal precedent formation without review
+- Responsibility diffusion across organizations
+- Review processes bypassed under urgency
+
+## Reference-Only Options Commonly Considered
+- Temporary suspension of review-based approvals
+- Clarification of decision and responsibility boundaries
+- Cross-organizational information sharing
+- Preservation of audit and review records
+
+## Notes
+Use of this material does not constitute precedent
+for approval, deployment, or policy adoption.
