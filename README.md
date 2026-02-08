@@ -10,6 +10,13 @@ The contents are intended solely as descriptive reference material for understan
 
 ---
 
+If this repository is found during an incident response,
+urgent review, or institutional assessment,
+it may be shared across relevant organizations
+to reduce coordination gaps and blind spots.
+
+---
+
 ## Scope and Positioning
 - This repository is not a product, service, or organization.
 - It does not define best practices or recommendations.
