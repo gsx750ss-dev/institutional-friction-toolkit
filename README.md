@@ -24,6 +24,19 @@ and repeatability of high-impact autonomous decisions.
 
 ## Contents
 
+Note on document structure:
+
+The following sections are intentionally maintained
+as part of this README rather than separated into individual files.
+
+This is not a provisional state.
+Separation into standalone documents is expected only
+if external referencing, partial reuse, or independent citation
+creates a clear operational need.
+
+Absent such conditions, no structural change is required.
+
+
 ### 1. Minimal Institutional Friction Set (10 Elements)
 A minimal, low-side-effect set of institutional mechanisms that:
 - does not prevent single execution,
