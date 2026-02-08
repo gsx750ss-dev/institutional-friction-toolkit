@@ -30,6 +30,10 @@ and repeatability of high-impact autonomous decisions.
 ---
 
 ## Contents
+- minimal-friction-elements.md
+- state-level-wave-break.md
+- post-incident-stabilization.md
+- terminology.md
 
 Note on document structure:
 
@@ -173,6 +177,12 @@ This note does not impose any obligation, coordination requirement,
 or reporting duty. It merely acknowledges the risk of fragmented awareness.
 
 ---
+Prior use, reference, or citation of this repository
+does not constitute precedent for approval,
+deployment, or policy adoption.
+
+---
+
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
