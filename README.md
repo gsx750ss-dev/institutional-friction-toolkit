@@ -40,6 +40,93 @@ This structure does not claim effectiveness against all actors or scenarios.
 
 ---
 
+## Minimal Institutional Friction Set (10 Elements)
+
+This section lists a minimal set of institutional and procedural elements
+that, when present, tend to reduce execution speed, justification chains,
+and repeatability of high-impact autonomous actions.
+
+These elements do not prohibit single execution.
+They describe conditions under which institutional processes
+become less conducive to rapid normalization and repetition.
+
+The elements listed below are descriptive references only.
+They do not constitute recommendations, requirements, or obligations.
+
+1. Review-based rejection rather than prohibition  
+   Formal rejection within existing review processes, without asserting illegality or moral violation.
+
+2. Non-precedent usage rule  
+   Explicit prevention of rejected cases being cited as precedent for future approvals.
+
+3. Irreversible review log preservation  
+   Preservation of review records in a form resistant to post-hoc modification or deletion.
+
+4. Mandatory recording of minority dissent  
+   Required documentation of dissenting or opposing views, regardless of final outcome.
+
+5. Individual responsibility attribution  
+   Identification of specific responsible signatories, preventing diffuse collective accountability.
+
+6. Cooling-off period before execution  
+   Introduction of a mandatory delay between approval and execution.
+
+7. Pre-execution review delay  
+   Procedural time separation between final review and operational initiation.
+
+8. Presence of independent external observers  
+   Inclusion of non-internal participants to reduce closed-loop institutional reasoning.
+
+9. Anonymized publication of rejection summaries  
+   Publicly accessible summaries of rejection rationales without identifying individuals.
+
+10. Resubmission constraints  
+    Temporal or structural limits on repeated submissions of substantially similar proposals.
+
+---
+
+## State-Level Wave-Break Structure (Reference)
+
+This section describes a layered reference structure
+for situations in which high-impact autonomous actions
+are initiated under state authority, exceptional conditions,
+or security-related justifications.
+
+The structure does not claim to prevent single execution.
+It describes mechanisms that tend to reduce policy normalization,
+repeatability, and rapid escalation following initial execution.
+
+### Layer 1: Justification Interruption Layer
+Mechanisms that limit the ability to convert exceptional cases
+into standing policy or routine authorization.
+
+- Time-limited exceptional authorization
+- Explicit non-precedent designation
+- Cross-jurisdictional reference of rejection decisions
+- Fixed public record of review criteria history
+
+### Layer 2: Responsibility Fixation Layer
+Mechanisms that reduce anonymity and diffuse accountability
+in high-level decision-making processes.
+
+- Named individual signatories, including for state-level actions
+- Mandatory participation of external observers
+- Redundant audit log storage across jurisdictions
+- Forced preservation of minority objections
+- Cross-border protection of internal disclosure
+
+### Layer 3: Re-execution Damping Layer
+Mechanisms that reduce the likelihood of rapid repetition
+following an initial execution.
+
+- Post-incident review authority across jurisdictions
+- Third-party verification mechanisms
+- Dual-use research export controls
+- Shared exclusion or restriction lists
+- Conditional automatic response triggers
+
+---
+
 ## Usage Notes
 - Inclusion or exclusion of any element is an institutional choice.
 - This repository does not recommend adoption.
