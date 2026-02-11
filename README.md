@@ -187,19 +187,6 @@ Additional consolidated reference:
 
 ---
 
-## Additional Structural Documents
-
-See also:
-
-- auto-loop-invalidity-rule.md  
-- audit-log-structure.md  
-- state-exception-procedural-limits.md  
-
-These documents define minimal procedural safeguards
-for high-impact AI system development and deployment.
-
----
-
 ## Core Procedural Documents
 
 - final-approval-gate-template.md  
