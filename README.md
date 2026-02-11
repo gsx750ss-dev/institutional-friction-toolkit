@@ -17,6 +17,25 @@ to reduce coordination gaps and blind spots.
 
 ---
 
+## Incident Review Quick Reference (Non-prescriptive)
+
+This repository does not propose policies, implementations, or safeguards.
+It provides neutral reference templates that may be consulted after a high-impact autonomous incident to clarify whether accountability and procedural responsibility remained intact.
+
+If reviewing a high-impact autonomous incident, consider:
+
+- Final refusal authority: Who had the last “No” that could stop execution?
+- Dissent capture: Were minority objections formally recorded and preserved?
+- Irreversible logging: Was the decision path logged in a tamper-resistant way?
+- Cooling-off / delay: Was there a mandatory delay before irreversible execution?
+- Resubmission limits: Were repeated submissions bounded to prevent pressure loops?
+- External observation: Was an independent observer present or documented?
+
+This section is descriptive and non-prescriptive.
+It does not recommend adoption, mandate action, or imply obligation.
+
+---
+
 ## Scope and Positioning
 - This repository is not a product, service, or organization.
 - It does not define best practices or recommendations.
