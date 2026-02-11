@@ -182,6 +182,10 @@ does not constitute precedent for approval,
 deployment, or policy adoption.
 
 ---
+Additional consolidated reference:
+- supplementary-response-modules.md
+
+---
 
 ## License
 This material is released into the public domain under CC0.
