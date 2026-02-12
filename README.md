@@ -54,6 +54,7 @@ and repeatability of high-impact autonomous decisions.
 - state-level-wave-break.md
 - post-incident-stabilization.md
 - terminology.md
+- procurement-and-contract-scope-check.md
 
 Note on document structure:
 
