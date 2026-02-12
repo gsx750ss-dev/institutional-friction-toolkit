@@ -48,6 +48,23 @@ and repeatability of high-impact autonomous decisions.
 
 ---
 
+## Cross-Organization Awareness Note (Non-prescriptive)
+
+In post-incident, urgent review, or high-uncertainty contexts,
+gaps may occur simply because relevant organizations
+are unaware of existing references.
+
+If this repository is discovered in such a context,
+it may be reasonable to share its existence
+across potentially affected or responsible organizations,
+to reduce unintentional omission.
+
+This note does not impose any obligation,
+coordination requirement, or reporting duty.
+It merely acknowledges the risk of fragmented awareness.
+
+---
+
 ## Contents
 - minimal-friction-elements.md
 - gradual-autonomy-normalization-check.md
