@@ -50,6 +50,7 @@ and repeatability of high-impact autonomous decisions.
 
 ## Contents
 - minimal-friction-elements.md
+- gradual-autonomy-normalization-check.md
 - state-level-wave-break.md
 - post-incident-stabilization.md
 - terminology.md
