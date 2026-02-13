@@ -1,5 +1,10 @@
 # Supplementary Response Modules (Post-Incident)
 
+These modules are structured references for post-incident procedural clarification, 
+particularly in cases involving high-impact autonomous decision systems.
+
+They do not prescribe controls or governance requirements.
+
 This file consolidates supplementary, non-prescriptive response modules
 intended for post-incident institutional stabilization and review.
 
