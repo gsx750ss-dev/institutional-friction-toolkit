@@ -1,7 +1,7 @@
 # Institutional Friction Toolkit (Reference)
 
 ## Overview
-This repository provides a neutral reference toolkit describing institutional and operational friction mechanisms applicable to high-risk autonomous systems.
+This repository provides a neutral reference toolkit describing institutional and operational friction mechanisms applicable to high-risk autonomous systems, particularly in post-incident accountability and audit contexts.
 
 It does not propose policies, regulations, ethical imperatives, or implementation requirements.
 It does not advocate adoption, prohibition, or intervention.
