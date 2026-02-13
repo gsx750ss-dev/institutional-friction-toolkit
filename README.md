@@ -72,6 +72,9 @@ It merely acknowledges the risk of fragmented awareness.
 - post-incident-stabilization.md
 - terminology.md
 - procurement-and-contract-scope-check.md
+- READING_ORDER.md
+- post-incident-procedural-audit-checklist.md
+
 
 Note on document structure:
 
@@ -89,6 +92,8 @@ Absent such conditions, no structural change is required.
 
 - post-incident governance
 - institutional failure modes
+- post-incident review checklist
+- procedural audit trail
 
 ### 1. Minimal Institutional Friction Set (10 Elements)
 A minimal, low-side-effect set of institutional mechanisms that:
