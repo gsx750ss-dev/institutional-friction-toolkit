@@ -16,6 +16,19 @@ it may be shared across relevant organizations
 to reduce coordination gaps and blind spots.
 
 ---
+### Context of Use (Descriptive)
+
+This repository may be relevant in discussions involving:
+
+- post-incident governance review  
+- procedural failure analysis  
+- accountability mapping  
+- audit trail integrity  
+- decision authority breakdown  
+- oversight gaps in autonomous systems  
+
+This list is descriptive and does not imply endorsement, recommendation, or policy direction.
+---
 
 ## Incident Review Quick Reference (Non-prescriptive)
 
