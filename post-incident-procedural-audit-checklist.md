@@ -60,4 +60,4 @@ Who made it, when, and on what grounds?
 
 ## Closing Note (Scope)
 This checklist is intended to clarify accountability status after an incident.
-It is not a recommendation, requirement, or control proposal.
+It is not a recommendation, requirement, or control proposal.　
