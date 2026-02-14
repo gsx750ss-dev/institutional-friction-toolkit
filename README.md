@@ -61,6 +61,15 @@ and repeatability of high-impact autonomous decisions.
 
 ---
 
+Additional clarification:
+
+- This repository does not evaluate technical safety methods.
+- It does not propose enforcement mechanisms.
+- It does not assess capability thresholds or technological limits.
+- It does not predict timelines or singularity scenarios.
+
+---
+
 ## Cross-Organization Awareness Note (Non-prescriptive)
 
 In post-incident, urgent review, or high-uncertainty contexts,
