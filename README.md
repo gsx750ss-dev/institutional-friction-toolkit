@@ -1,5 +1,11 @@
 # Institutional Friction Toolkit (Reference)
 
+This material:
+- is not a recommendation.
+- does not provide safe-harbor or liability protection.
+- does not guarantee safety, legality, or ethical adequacy.
+- does not delegate refusal authority to AI systems.
+
 ## Overview
 This repository provides a neutral reference toolkit describing institutional and operational friction mechanisms applicable to high-risk autonomous systems, particularly in post-incident accountability and audit contexts.
 
