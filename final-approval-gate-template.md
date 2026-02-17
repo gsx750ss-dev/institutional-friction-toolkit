@@ -7,6 +7,8 @@ for high-impact AI system releases or operational transitions.
 It does not prohibit deployment.  
 It establishes conditions under which approval is considered valid.
 
+AI outputs must not be used as the sole or primary rationale for approval.
+
 ---
 
 ## 1. Human Judgment Record (Mandatory)
