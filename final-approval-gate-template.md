@@ -16,6 +16,8 @@ The responsible human reviewer must provide a written justification (1–5 sente
 - Why was this decision **not stopped**?
 - What were the primary grounds for allowing continuation?
 - What uncertainties remain?
+- What would have made you stop?
+
 
 Written justification:
 
