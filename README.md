@@ -269,6 +269,13 @@ These documents define minimal procedural safeguards
 for high-impact AI system development and deployment.
 
 ---
+
+### Related References
+
+- Overview  
+  https://github.com/gsx750ss-dev/lumina-30-overview
+
+---
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
