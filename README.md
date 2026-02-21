@@ -276,6 +276,9 @@ for high-impact AI system development and deployment.
   https://github.com/gsx750ss-dev/lumina-30-overview
 
 ---
+Structural context:
+- lumina-30-structure-map
+---
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
