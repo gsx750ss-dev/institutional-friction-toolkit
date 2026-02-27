@@ -1,4 +1,5 @@
 # Institutional Friction Toolkit (Reference)
+Primary entry point: [Lumi30-Index](https://github.com/gsx750ss-dev/Lumi30-Index)
 
 ## Position within LUMINA-30
 
