@@ -66,6 +66,17 @@ It does not recommend adoption, mandate action, or imply obligation.
 
 ---
 
+
+## Boundary Reference Role / 境界参照上の役割
+
+This toolkit helps reviewers identify institutional patterns that can make human refusal ineffective: delay, override, repeated resubmission, closed-loop validation, restart-control failure, and procedural normalization.
+
+このツールキットは、遅延、override、反復再提出、閉ループ検証、再起動統制不全、手続の常態化など、人間の拒否を実効不能にしうる制度パターンを確認するための補助資料である。
+
+It does not create an approval process, certification system, compliance checklist, or enforcement duty. When facts still need to be collected, start with `lumina30-incident-review`.
+
+これは承認手続、認証制度、適合チェックリスト、執行義務を作るものではない。事実収集が必要な場合は、先に `lumina30-incident-review` を使用する。
+
 ## Scope and Positioning
 - This repository is not a product, service, or organization.
 - It does not define best practices or recommendations.
@@ -326,3 +337,4 @@ for high-impact AI system development and deployment.
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
+
