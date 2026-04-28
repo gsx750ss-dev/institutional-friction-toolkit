@@ -127,9 +127,9 @@ It merely acknowledges the risk of fragmented awareness.
 ---
 
 ## Contents
-- minimal-friction-elements.md
+- [Minimal Institutional Friction Set](#minimal-institutional-friction-set-10-elements)
 - gradual-autonomy-normalization-check.md
-- state-level-wave-break.md
+- [State-Level Wave-Break Structure](#state-level-wave-break-structure-reference)
 - post-incident-stabilization.md
 - terminology.md
 - procurement-and-contract-scope-check.md
@@ -337,4 +337,6 @@ for high-impact AI system development and deployment.
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
+
+
 
