@@ -2,7 +2,7 @@
 
 ## Position within LUMINA-30
 
-Primary users / 主な対象者: incident investigators, auditors, oversight teams, and governance reviewers.  
+Primary users ｜ 主な対象者: incident investigators, auditors, oversight teams, and governance reviewers.  
 事故調査担当、監査担当、監督チーム、ガバナンスレビュー担当者向け。
 
 Use this repository when the issue is failure-to-stop, override breakdown, restart-control failure, procedural invalidity, or institutional delay.  
@@ -11,15 +11,15 @@ Use this repository when the issue is failure-to-stop, override breakdown, resta
 This repository is not the first incident intake form. Use incident-review first when facts still need to be collected.  
 これは事故受付フォームではない。事実収集が必要な場合は incident-review を先に使用。
 
-- [Incident Review Hub / 事故レビュー主ハブ](https://github.com/lumina-30/lumina30-incident-review)  
+- [Incident Review Hub ｜ 事故レビュー入口](https://github.com/lumina-30/lumina30-incident-review)  
   Use this for initial incident review and boundary-check workflow.  
   事故レビュー初動と境界判定ワークフローに使用。
 
-- [Stop Authority Reference / 停止権限参照](https://github.com/lumina-30/stop-authority-reference)  
+- [Stop Authority Reference ｜ 停止権限参照](https://github.com/lumina-30/stop-authority-reference)  
   Use this to clarify whether effective refusal or stop authority still existed.  
   実効的な拒否権・停止権限が存在したかを確認する場合に使用。
 
-- [AI Accountability Reference / AI説明責任参照](https://github.com/lumina-30/ai-accountability-reference)  
+- [AI Accountability Reference ｜ AI説明責任参照](https://github.com/lumina-30/ai-accountability-reference)  
   Use this when findings must be translated into accountability or audit language.  
   所見を説明責任・監査文言へ変換する場合に使用。
 
@@ -67,7 +67,7 @@ It does not recommend adoption, mandate action, or imply obligation.
 ---
 
 
-## Boundary Reference Role / 境界参照上の役割
+## Boundary Reference Role ｜ 境界参照上の役割
 
 This toolkit helps reviewers identify institutional patterns that can make human refusal ineffective: delay, override, repeated resubmission, closed-loop validation, restart-control failure, and procedural normalization.
 
@@ -77,7 +77,7 @@ It does not create an approval process, certification system, compliance checkli
 
 これは承認手続、認証制度、適合チェックリスト、執行義務を作るものではない。事実収集が必要な場合は、先に `lumina30-incident-review` を使用する。
 
-## Scope and Positioning
+## Scope and Positioning ｜ 範囲と位置づけ
 - This repository is not a product, service, or organization.
 - It does not define best practices or recommendations.
 - It does not assert normative judgments or desired outcomes.
@@ -98,7 +98,7 @@ Additional clarification:
 
 ---
 
-## Main Function / 主機能
+## Main Function ｜ 主機能
 
 This repository should be used when the key question is not merely what happened,
 but how institutional structure allowed operation to continue despite weakening or loss of meaningful human refusal.
@@ -126,7 +126,7 @@ It merely acknowledges the risk of fragmented awareness.
 
 ---
 
-## Contents
+## Contents ｜ 目次
 - [Minimal Institutional Friction Set](#minimal-institutional-friction-set-10-elements)
 - gradual-autonomy-normalization-check.md
 - [State-Level Wave-Break Structure](#state-level-wave-break-structure-reference)
@@ -148,7 +148,7 @@ creates a clear operational need.
 
 Absent such conditions, no structural change is required.
 
-## Suggested Search Keywords
+## Suggested Search Keywords ｜ 推奨検索語
 
 - post-incident governance
 - institutional failure modes
@@ -258,7 +258,7 @@ following an initial execution.
 
 ---
 
-## Planned aggregation role / 集約先としての役割
+## Planned Aggregation Role ｜ 集約先としての役割
 
 This repository is the natural aggregation point for:
 - failure-to-stop analysis
@@ -269,7 +269,7 @@ This repository is the natural aggregation point for:
 このリポジトリは、次の自然な集約先である。
 - 停止不全分析
 - override / restart 崩壊分析
-- 手続無効に関わる事故後判断レビュー論理
+- 手続的無効に関わる事故後判断レビュー論理
 - boundary-condition warning の制度レビュー
 
 ---
@@ -322,13 +322,13 @@ for high-impact AI system development and deployment.
 
 ---
 
-### Related References / 関連参照
+### Related References ｜ 関連参照
 
-- [LUMINA-30 Overview / LUMINA-30 概要](https://github.com/lumina-30/lumina-30-overview)  
+- [Conceptual Overview ｜ 概念概要](https://github.com/lumina-30/lumina-30-overview)  
   Use this for the overall conceptual map before reading operational friction examples.  
   制度摩擦の例を読む前に、全体の概念配置を確認するために使用。
 
-- [LUMINA-30 Structure Map / LUMINA-30 構造マップ](https://github.com/lumina-30/lumina-30-structure-map)  
+- [LUMINA-30 Structure Map ｜ LUMINA-30 構造マップ](https://github.com/lumina-30/lumina-30-structure-map)  
   Use this for repository-layer relationships and navigation.  
   repo層の関係と導線を確認するために使用。
 
@@ -337,6 +337,3 @@ for high-impact AI system development and deployment.
 ## License
 This material is released into the public domain under CC0.
 No author attribution is required.
-
-
-
