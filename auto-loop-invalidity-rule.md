@@ -1,4 +1,4 @@
-# Automated Development Loop – Procedural Invalidity Rule
+# Automated Development Loop – Procedural Invalidity Rule ｜ 自動開発ループ — 手続的無効ルール
 
 This rule applies to AI systems involved in iterative self-improvement,
 automated testing, or performance optimization pipelines.
@@ -6,7 +6,7 @@ automated testing, or performance optimization pipelines.
 It does not prohibit development.
 It defines conditions under which approval is procedurally invalid.
 
-## External Explanation / 外部説明
+## External Explanation ｜ 外部説明
 
 Closed-loop self-evaluation means that the same AI system, or a dependent automated loop, generates the criteria, evaluates the output, and approves continuation without independent human validation.
 
@@ -18,7 +18,7 @@ LUMINA-30の境界レビュー上、これは実効的な人間拒否を示す�
 
 ---
 
-## 1. AI Evaluation Non-Sufficiency
+## 1. AI Evaluation Non-Sufficiency ｜ AI評価の非十分性
 
 AI-generated evaluation results,
 performance metrics,
@@ -29,7 +29,7 @@ Human written justification is mandatory.
 
 ---
 
-## 2. Human Judgment Requirement
+## 2. Human Judgment Requirement ｜ 人間判断要件
 
 For each major release, update, or deployment:
 
@@ -42,7 +42,7 @@ approval is invalid.
 
 ---
 
-## 3. Closed-Loop Prohibition (Procedural)
+## 3. Closed-Loop Prohibition (Procedural) ｜ 閉ループ禁止（手続上）
 
 If an AI system:
 
@@ -56,7 +56,7 @@ the approval shall be considered procedurally invalid.
 
 ---
 
-## 4. Reversibility Confirmation
+## 4. Reversibility Confirmation ｜ 可逆性確認
 
 Before deployment, confirm:
 

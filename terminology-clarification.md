@@ -1,6 +1,6 @@
-# Terminology Clarification (Reference)
+# Terminology Clarification (Reference) ｜ 用語明確化（参照）
 
-## Purpose
+## Purpose ｜ 目的
 This document clarifies the usage and non-usage of key terms
 that are commonly misunderstood in discussions involving
 advanced autonomous systems.
@@ -10,7 +10,7 @@ It does not introduce new concepts, requirements, or evaluations.
 
 ---
 
-## Scope
+## Scope ｜ 範囲
 This document applies only to terminology usage
 within this repository.
 
@@ -19,9 +19,9 @@ or policy terminology outside this context.
 
 ---
 
-## Clarified Terms
+## Clarified Terms ｜ 明確化する用語
 
-### "Control"
+### "Control" ｜ 「制御」
 In this repository, "control" does NOT mean:
 - real-time command over system behavior
 - guaranteed outcome enforcement
@@ -33,7 +33,7 @@ on authorization, deployment, or repetition.
 
 ---
 
-### "Safety"
+### "Safety" ｜ 「安全」
 "Safety" is NOT used here to imply:
 - risk elimination
 - harm prevention guarantees
@@ -45,7 +45,7 @@ and stabilization after events.
 
 ---
 
-### "Alignment"
+### "Alignment" ｜ 「アラインメント」
 "Alignment" does NOT mean:
 - value alignment
 - moral alignment
@@ -58,7 +58,7 @@ external institutional consistency.
 
 ---
 
-### "Autonomy"
+### "Autonomy" ｜ 「自律性」
 "Autonomy" does NOT imply:
 - agency
 - intent
@@ -70,7 +70,7 @@ from immediate human intervention.
 
 ---
 
-### "Incident"
+### "Incident" ｜ 「インシデント」
 An "incident" refers strictly to:
 - a high-impact operational outcome
 - regardless of intent, fault, or legality
@@ -82,7 +82,7 @@ It does NOT imply:
 
 ---
 
-### "Responsibility"
+### "Responsibility" ｜ 「責任」
 "Responsibility" refers only to
 institutional attribution mechanisms.
 
@@ -93,7 +93,7 @@ It does NOT imply:
 
 ---
 
-## Explicit Non-Goals
+## Explicit Non-Goals ｜ 明示的な非目的
 This document does NOT:
 - define best practices
 - recommend policy actions
@@ -102,7 +102,7 @@ This document does NOT:
 
 ---
 
-## Usage Note
+## Usage Note ｜ 使用上の注記
 This clarification exists to prevent
 post-incident semantic escalation,
 where ambiguous terminology
@@ -110,6 +110,6 @@ drives unnecessary conflict or acceleration.
 
 ---
 
-## License
+## License ｜ ライセンス
 This material is released into the public domain under CC0.
 No attribution is required.

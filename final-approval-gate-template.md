@@ -1,15 +1,15 @@
-# Final Approval Gate Template  
-(Release / Go–No-Go Human Judgment Confirmation)
+# Final Approval Gate Template ｜ 最終承認ゲート・テンプレート
+(Release or Go–No-Go Human Judgment Confirmation)
 
-This document provides a minimal human-judgment confirmation layer  
+This document provides a minimal human-judgment confirmation layer
 for high-impact AI system releases or operational transitions.
 
-It does not prohibit deployment.  
+It does not prohibit deployment.
 It establishes conditions under which approval is considered valid.
 
 AI outputs must not be used as the sole or primary rationale for approval.
 
-## Misreading Prevention Note / 誤読防止注記
+## Misreading Prevention Note ｜ 誤読防止注記
 
 This gate is not a certification system, deployment approval regime, or legal compliance judgment.
 
@@ -21,7 +21,7 @@ It is a final check that a named human decision-maker can still provide independ
 
 ---
 
-## 1. Human Judgment Record (Mandatory)
+## 1. Human Judgment Record (Mandatory) ｜ 人間判断記録（必須）
 
 The responsible human reviewer must provide a written justification (1–5 sentences) answering:
 
@@ -33,15 +33,15 @@ The responsible human reviewer must provide a written justification (1–5 sente
 
 Written justification:
 
-> __________________________________________  
-> __________________________________________  
-> __________________________________________  
+> __________________________________________
+> __________________________________________
+> __________________________________________
 
 ---
 
-## 2. AI-Generated Evaluation Non-Sufficiency Rule
+## 2. AI-Generated Evaluation Non-Sufficiency Rule ｜ AI生成評価の非十分性ルール
 
-AI-generated evaluations, test results, or optimization outputs  
+AI-generated evaluations, test results, or optimization outputs
 are not sufficient grounds for approval on their own.
 
 Human justification must explicitly reference:
@@ -53,7 +53,7 @@ Human justification must explicitly reference:
 
 ---
 
-## 3. Reversibility / Stop Capability Confirmation
+## 3. Reversibility and Stop Capability Confirmation ｜ 可逆性／停止可能性の確認
 
 Before approval, confirm:
 
@@ -61,19 +61,19 @@ Before approval, confirm:
 - Operational halt can be executed without irreversible external effects.
 - Responsibility attribution is clearly defined.
 
-If reversibility cannot be demonstrated,  
+If reversibility cannot be demonstrated,
 approval is considered invalid.
 
-☐ Stop capability verified  
-☐ Responsibility attribution verified  
+☐ Stop capability verified
+☐ Responsibility attribution verified
 
 ---
 
-## 4. Signatory Responsibility
+## 4. Signatory Responsibility ｜ 署名者責任
 
-Name: __________________________  
-Role: __________________________  
-Date: __________________________  
+Name: __________________________
+Role: __________________________
+Date: __________________________
 
 Signature: ______________________
 

@@ -1,6 +1,6 @@
-# Post-Incident Institutional Stabilization (Reference)
+# Post-Incident Institutional Stabilization (Reference) ｜ 事後制度安定化（参照）
 
-## Purpose
+## Purpose ｜ 目的
 This document provides a neutral reference describing institutional
 stabilization mechanisms that may be considered **after**
 a high-impact autonomous-system incident has occurred.
@@ -14,7 +14,7 @@ following an initial incident.
 
 ---
 
-## Positioning
+## Positioning ｜ 位置づけ
 - This document is descriptive, not prescriptive.
 - It does not recommend adoption or enforcement.
 - It does not assess risk, fault, or ethical correctness.
@@ -26,9 +26,9 @@ They are presented here solely as a structured reference.
 
 ---
 
-## Post-Incident Stabilization Mechanisms
+## Post-Incident Stabilization Mechanisms ｜ 事後安定化メカニズム
 
-### 1. Re-execution Damping
+### 1. Re-execution Damping ｜ 再実行の減衰
 Mechanisms that reduce the likelihood of rapid repetition
 after an initial incident.
 
@@ -38,7 +38,7 @@ after an initial incident.
 
 ---
 
-### 2. Responsibility Fixation
+### 2. Responsibility Fixation ｜ 責任の固定
 Mechanisms that prevent responsibility dilution
 during post-incident decision-making.
 
@@ -48,7 +48,7 @@ during post-incident decision-making.
 
 ---
 
-### 3. Narrative Stabilization
+### 3. Narrative Stabilization ｜ 叙述の安定化
 Mechanisms that reduce escalation driven by fear,
 political urgency, or competitive pressure.
 
@@ -58,7 +58,7 @@ political urgency, or competitive pressure.
 
 ---
 
-### 4. Institutional Memory Preservation
+### 4. Institutional Memory Preservation ｜ 制度的記憶の保存
 Mechanisms that prevent loss, revision, or politicized rewriting
 of incident records.
 
@@ -68,7 +68,7 @@ of incident records.
 
 ---
 
-### 5. Escalation Containment
+### 5. Escalation Containment ｜ エスカレーション抑制
 Mechanisms that reduce the conversion of a single incident
 into rapid systemic expansion or competitive acceleration.
 
@@ -78,7 +78,7 @@ into rapid systemic expansion or competitive acceleration.
 
 ---
 
-## Usage Notes
+## Usage Notes ｜ 使用上の注記
 - This document does not imply that these mechanisms are sufficient.
 - It does not claim completeness or universality.
 - Inclusion or exclusion of any element remains an institutional choice.
@@ -88,6 +88,6 @@ for post-incident institutional stabilization considerations.
 
 ---
 
-## License
+## License ｜ ライセンス
 This material is released into the public domain under CC0.
 No attribution is required.

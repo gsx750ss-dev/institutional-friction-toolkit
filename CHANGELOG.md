@@ -1,4 +1,4 @@
-# Changelog
+# Changelog ｜ 変更履歴
 
 All structural additions are recorded to preserve transparency of evolution.
 No retroactive modification of conceptual foundations is performed.

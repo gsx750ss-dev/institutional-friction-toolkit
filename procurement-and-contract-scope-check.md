@@ -1,4 +1,4 @@
-# Procurement and Contract Scope Check (Reference)
+# Procurement and Contract Scope Check (Reference) ｜ 調達・契約範囲チェック（参照）
 
 This document does not propose regulatory requirements,
 mandatory clauses, or contractual obligations.
