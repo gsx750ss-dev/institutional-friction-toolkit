@@ -11,15 +11,15 @@
 
 # Institutional Friction Toolkit (Reference)
 
-## Societal Friction Research Starter ｜ 社会的摩擦の研究スターター
+## The Need for Societal Friction ｜ 社会的摩擦の必要性
 
-- [Societal Friction Before Irreversibility ｜ 不可逆化前の社会的摩擦（English）](https://lumina-30.github.io/institutional-friction-toolkit/societal-friction-research-starter.html)  
-  Research questions, testable hypotheses, observation candidates, and a small pilot for studying employment, skills, organizational capacity, and responsibility before AI-driven change becomes difficult to reverse.
-- [不可逆化前の社会的摩擦｜研究スターター（日本語）](https://lumina-30.github.io/institutional-friction-toolkit/societal-friction-research-starter-ja.html)  
-  AIによる変化が回復困難になる前に、雇用・技能・組織能力・責任経路を研究するための課題、仮説、観測、小規模パイロットを提示します。
+- [The Need for Societal Friction ｜ 社会的摩擦の必要性（English）](https://lumina-30.github.io/institutional-friction-toolkit/societal-friction-research-starter.html)  
+  Explains why room to pause, verify, and correct may matter before AI-driven changes to employment, skills, organizational capacity, and responsibility become difficult to reverse.
+- [社会的摩擦の必要性（日本語）](https://lumina-30.github.io/institutional-friction-toolkit/societal-friction-research-starter-ja.html)  
+  AIによる雇用・技能・組織能力・責任経路の変化が回復困難になる前に、停止・検証・修正の余地がなぜ必要かを説明します。
 
-This research starter is non-binding and does not ask for endorsement of LUMINA-30. Duplication, criticism, failure, and falsification are valid outcomes.  
-この研究スターターは非拘束であり、LUMINA-30への支持を求めません。重複、批判、失敗、反証も有効な成果です。
+This public reference is non-binding and does not ask for endorsement of LUMINA-30. Its open questions remain available for research, criticism, comparison, and falsification.  
+この公開参照資料は非拘束であり、LUMINA-30への支持を求めません。未解決の問いは、研究・批判・比較・反証に開かれています。
 
 ## Position within LUMINA-30
 
