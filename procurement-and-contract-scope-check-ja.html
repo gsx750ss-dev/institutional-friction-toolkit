@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="契約や依存が停止可能性を失わせないか確認します。"><title>調達・契約範囲チェック | 制度的摩擦ツールキット</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 66%,Canvas 34%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--panel:color-mix(in srgb,Canvas 94%,CanvasText 6%);--soft:color-mix(in srgb,Canvas 87%,CanvasText 13%);--accent:LinkText;--shadow:color-mix(in srgb,CanvasText 14%,transparent 86%)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top right,color-mix(in srgb,LinkText 10%,transparent 90%),transparent 32rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}a{color:var(--accent)}.page{max-width:1040px;margin:auto;padding:18px 16px 60px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.nav a{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-weight:650}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow)}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.lead{max-width:74ch;color:var(--muted);font-size:clamp(1rem,2.3vw,1.18rem)}.notice{margin:16px 0;padding:13px 15px;border-left:4px solid var(--accent);border-radius:0 14px 14px 0;background:var(--soft)}main.content{margin-top:18px;padding:clamp(18px,4vw,34px);border:1px solid var(--line);border-radius:22px;background:var(--panel)}h2{margin-top:2em;padding-top:.6em;border-top:1px solid var(--line);font-size:clamp(1.3rem,3vw,1.8rem)}h3{margin-top:1.5em}table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:var(--soft)}pre{overflow-x:auto;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}blockquote{margin-left:0;padding:10px 15px;border-left:4px solid var(--accent);background:var(--soft)}.route-grid{display:grid;gap:13px}.route{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;box-shadow:0 8px 22px var(--shadow)}.route:hover,.route:focus{border-color:var(--accent);transform:translateY(-1px)}.step{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--soft);font-weight:850}.route strong{display:block;font-size:1.08rem}.route span span{display:block;color:var(--muted);margin-top:2px}.arrow{font-size:1.35rem}.quick{grid-template-columns:repeat(auto-fit,minmax(245px,1fr))}.quick .route{grid-template-columns:1fr auto}footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted)}[id]{scroll-margin-top:24px}@media(max-width:620px){.route{grid-template-columns:auto 1fr}.arrow{display:none}.hero h1{font-size:2.1rem}}.ja-pair{display:block;margin-top:.42em;padding-top:.38em;border-top:1px dashed var(--line);color:var(--text)}h2 span[lang="ja"],h3 span[lang="ja"]{font-weight:inherit}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow);margin-bottom:18px}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.lead{max-width:76ch;color:var(--muted);font-size:1.08rem}</style></head><body><div class="page"><nav class="nav" aria-label="読者向けナビゲーション"><a href="index-ja.html">← 日本語入口</a><a href="procurement-and-contract-scope-check.html">English</a><a href="reading-order-ja.html">読書順</a><a href="https://github.com/lumina-30/institutional-friction-toolkit/blob/main/procurement-and-contract-scope-check.md">Markdown原文</a><a href="https://lumina-30.github.io/Lumi30-Index/">中央索引</a></nav><header class="hero"><div class="eyebrow">制度的摩擦ツールキット</div><h1>調達・契約範囲チェック</h1><p class="lead">契約や依存が停止可能性を失わせないか確認します。</p></header><main class="content"><p>この文書は、規制要件、必須条項、または契約上の義務を提案するものではありません。</p>
+<p>調達、ベンダーの選択、SaaS の導入、API 統合、または自律システムに関わるアウトソーシングの決定時に考慮される可能性のある記述的な参考質問を提供します。</p>
+<hr>
+<p>調達または契約上の採用を検討するときは、次の点を考慮してください。</p>
+<ul>
+<li>契約は人間のoverride権限を明示的に保持していますか?</li>
+<li>意思決定の説明責任は、指定された主体に明確に帰属されますか?</li>
+<li>ベンダーとオペレーターの間で責任の境界は定義されていますか?</li>
+<li>契約は、レビューを経ない一方的な自律性の拡大を認めているか。</li>
+<li>更新メカニズムはシステムの動作を大幅に変更することができますか?</li>
+<li>依存の増大に応じて、監督体制も適切に調整されているか。</li>
+</ul>
+<p>境界責任と対称的摩擦の問題:</p>
+<ul>
+<li>導入プロセスでは、フリクションの設計、運用、証拠の保存、検証、および不可逆性が生じる前の修正の責任者を特定していますか?</li>
+<li>契約は、影響を受ける人間や組織が声、地位、または再参入能力を失う前にレビュー可能な証拠を保存しますか?</li>
+<li>この契約は、アウトソーシング、下請け、事業体の置き換え、不透明な更新、または一方的な範囲の拡大によって責任が回避されることを防止していますか?</li>
+<li>調達プロセスは、責任あるベンダーが、移動、レビュー、または回収コストを外部化するベンダーよりも競争力が弱くなるのを回避していますか?</li>
+<li>境界条件が保存されていない場合、名前付きの修正所有者は存在しますか?</li>
+</ul>
+<p>境界責任と対称摩擦に関する質問：</p>
+<ul>
+<li>導入プロセスは、不可逆化前の摩擦設計・運用・証拠保存・検証・是正の責任主体を特定しているか。</li>
+<li>契約は、影響を受ける人間または制度が声・地位・再参入能力を失う前に、検証可能な証拠を保存するか。</li>
+<li>契約は、外注・再委託・法人変更・不透明な更新・一方的な範囲拡張による責任迂回を防いでいるか。</li>
+<li>調達プロセスは、責任あるベンダーが、置換・レビュー・回復コストを外部化するベンダーより競争上不利になる構造を避けているか。</li>
+<li>境界条件が保存されない場合の是正責任主体は明示されているか。</li>
+</ul>
+<hr>
+<p>このチェックリストは説明的なものであり、規範的なものではありません。これは、調達および契約プロセスにおける責任の継続性を明確にすることのみを目的としています。</p>
+</main><footer>非拘束の公開参照資料です。認証・指示・適合性判断を行うものではありません。</footer></div></body></html>
