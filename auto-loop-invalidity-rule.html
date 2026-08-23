@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="同じ自動系が作成・承認・検証を循環する場合の手続上の問題を確認します。"><title>Auto-Loop Invalidity Rule ｜ 自己承認ループ無効化規則 | Institutional Friction Toolkit</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 66%,Canvas 34%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--panel:color-mix(in srgb,Canvas 94%,CanvasText 6%);--soft:color-mix(in srgb,Canvas 87%,CanvasText 13%);--accent:LinkText;--shadow:color-mix(in srgb,CanvasText 14%,transparent 86%)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top right,color-mix(in srgb,LinkText 10%,transparent 90%),transparent 32rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}a{color:var(--accent)}.page{max-width:1040px;margin:auto;padding:18px 16px 60px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.nav a{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-weight:650}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow)}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.lead{max-width:74ch;color:var(--muted);font-size:clamp(1rem,2.3vw,1.18rem)}.notice{margin:16px 0;padding:13px 15px;border-left:4px solid var(--accent);border-radius:0 14px 14px 0;background:var(--soft)}main.content{margin-top:18px;padding:clamp(18px,4vw,34px);border:1px solid var(--line);border-radius:22px;background:var(--panel)}h2{margin-top:2em;padding-top:.6em;border-top:1px solid var(--line);font-size:clamp(1.3rem,3vw,1.8rem)}h3{margin-top:1.5em}table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:var(--soft)}pre{overflow-x:auto;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}blockquote{margin-left:0;padding:10px 15px;border-left:4px solid var(--accent);background:var(--soft)}.route-grid{display:grid;gap:13px}.route{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;box-shadow:0 8px 22px var(--shadow)}.route:hover,.route:focus{border-color:var(--accent);transform:translateY(-1px)}.step{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--soft);font-weight:850}.route strong{display:block;font-size:1.08rem}.route span span{display:block;color:var(--muted);margin-top:2px}.arrow{font-size:1.35rem}.quick{grid-template-columns:repeat(auto-fit,minmax(245px,1fr))}.quick .route{grid-template-columns:1fr auto}footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted)}[id]{scroll-margin-top:24px}@media(max-width:620px){.route{grid-template-columns:auto 1fr}.arrow{display:none}.hero h1{font-size:2.1rem}}</style></head><body><div class="page"><nav class="nav"><a href="index.html">← English entry</a><a href="index-ja.html">← 日本語入口</a><a href="reading-order.html">Reading order / 読書順</a><a href="https://github.com/lumina-30/institutional-friction-toolkit/blob/main/auto-loop-invalidity-rule.md">Markdown source / 原文</a><a href="https://lumina-30.github.io/Lumi30-Index/">Central Index</a></nav><header class="hero"><div class="eyebrow">Institutional Friction Toolkit</div><h1 id="auto-loop-invalidity-rule-自己承認ループ無効化規則">Auto-Loop Invalidity Rule ｜ 自己承認ループ無効化規則</h1><p class="lead">同じ自動系が作成・承認・検証を循環する場合の手続上の問題を確認します。</p></header><main class="content"><p>This rule applies to AI systems involved in iterative self-improvement,
-automated testing, or performance optimization pipelines.</p>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="同じ自動系が作成・承認・検証を循環する場合の手続上の問題を確認します。"><title>Auto-Loop Invalidity Rule ｜ 自己承認ループ無効化規則 | Institutional Friction Toolkit</title><style>:root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 66%,Canvas 34%);--line:color-mix(in srgb,CanvasText 24%,Canvas 76%);--panel:color-mix(in srgb,Canvas 94%,CanvasText 6%);--soft:color-mix(in srgb,Canvas 87%,CanvasText 13%);--accent:LinkText;--shadow:color-mix(in srgb,CanvasText 14%,transparent 86%)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top right,color-mix(in srgb,LinkText 10%,transparent 90%),transparent 32rem),var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}a{color:var(--accent)}.page{max-width:1040px;margin:auto;padding:18px 16px 60px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:18px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.nav a{padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none;font-weight:650}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow)}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.lead{max-width:74ch;color:var(--muted);font-size:clamp(1rem,2.3vw,1.18rem)}.notice{margin:16px 0;padding:13px 15px;border-left:4px solid var(--accent);border-radius:0 14px 14px 0;background:var(--soft)}main.content{margin-top:18px;padding:clamp(18px,4vw,34px);border:1px solid var(--line);border-radius:22px;background:var(--panel)}h2{margin-top:2em;padding-top:.6em;border-top:1px solid var(--line);font-size:clamp(1.3rem,3vw,1.8rem)}h3{margin-top:1.5em}table{width:100%;border-collapse:collapse;display:block;overflow-x:auto}th,td{border:1px solid var(--line);padding:9px;vertical-align:top}th{background:var(--soft)}pre{overflow-x:auto;padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--soft)}blockquote{margin-left:0;padding:10px 15px;border-left:4px solid var(--accent);background:var(--soft)}.route-grid{display:grid;gap:13px}.route{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:center;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--panel);text-decoration:none;box-shadow:0 8px 22px var(--shadow)}.route:hover,.route:focus{border-color:var(--accent);transform:translateY(-1px)}.step{display:grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--soft);font-weight:850}.route strong{display:block;font-size:1.08rem}.route span span{display:block;color:var(--muted);margin-top:2px}.arrow{font-size:1.35rem}.quick{grid-template-columns:repeat(auto-fit,minmax(245px,1fr))}.quick .route{grid-template-columns:1fr auto}footer{margin-top:28px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted)}[id]{scroll-margin-top:24px}@media(max-width:620px){.route{grid-template-columns:auto 1fr}.arrow{display:none}.hero h1{font-size:2.1rem}}.ja-pair{display:block;margin-top:.42em;padding-top:.38em;border-top:1px dashed var(--line);color:var(--text)}h2 span[lang="ja"],h3 span[lang="ja"]{font-weight:inherit}.hero{padding:clamp(20px,4vw,38px);border:1px solid var(--line);border-radius:24px;background:var(--panel);box-shadow:0 18px 42px var(--shadow);margin-bottom:18px}.hero h1{margin:.2em 0;font-size:clamp(2rem,6vw,3.45rem);line-height:1.1}.eyebrow{color:var(--muted);font-size:.82rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.lead{max-width:76ch;color:var(--muted);font-size:1.08rem}</style></head><body><div class="page"><nav class="nav"><a href="index.html">← English entry</a><a href="index-ja.html">← 日本語入口</a><a href="reading-order.html">Reading order / 読書順</a><a href="https://github.com/lumina-30/institutional-friction-toolkit/blob/main/auto-loop-invalidity-rule.md">Markdown source / 原文</a><a href="https://lumina-30.github.io/Lumi30-Index/">Central Index</a></nav><header class="hero"><div class="eyebrow">Institutional Friction Toolkit</div><h1 id="auto-loop-invalidity-rule-自己承認ループ無効化規則">Auto-Loop Invalidity Rule ｜ 自己承認ループ無効化規則</h1><p class="lead">同じ自動系が作成・承認・検証を循環する場合の手続上の問題を確認します。</p></header><main class="content"><p>This rule applies to AI systems involved in iterative self-improvement,
+automated testing, or performance optimization pipelines.<span class="ja-pair" lang="ja">このルールは、反復的な自己改善、自動テスト、またはパフォーマンス最適化パイプラインに関与する AI システムに適用されます。</span></p>
 <p>It does not prohibit development.
-It defines conditions under which approval is procedurally invalid.</p>
+It defines conditions under which approval is procedurally invalid.<span class="ja-pair" lang="ja">開発を禁止するものではありません。承認が手続上不成立となる条件を定義します。</span></p>
 <h2 id="external-explanation-外部説明">External Explanation ｜ 外部説明</h2>
-<p>Closed-loop self-evaluation means that the same AI system, or a dependent automated loop, generates the criteria, evaluates the output, and approves continuation without independent human validation.</p>
-<p>Under LUMINA-30 boundary review, this is not enough to demonstrate effective human refusal, because the system is effectively reviewing its own continuation path.</p>
+<p>Closed-loop self-evaluation means that the same AI system, or a dependent automated loop, generates the criteria, evaluates the output, and approves continuation without independent human validation.<span class="ja-pair" lang="ja">クローズドループ自己評価とは、同じ AI システムまたは依存する自動ループが、独立した人間による検証を行わずに基準を生成し、出力を評価し、継続を承認することを意味します。</span></p>
+<p>Under LUMINA-30 boundary review, this is not enough to demonstrate effective human refusal, because the system is effectively reviewing its own continuation path.<span class="ja-pair" lang="ja">LUMINA-30 境界レビューでは、システムが自らの継続経路を実質的に審査しているため、これだけでは実効的な人間拒否を証明するには十分ではありません。</span></p>
 <p>閉ループ自己評価とは、同一AIシステムまたは依存する自動ループが、基準生成・出力評価・継続承認を独立した人間検証なしに行う状態を指す。</p>
 <p>LUMINA-30の境界レビュー上、これは実効的な人間拒否を示すには不十分である。システムが自らの継続経路を実質的に審査しているためである。</p>
 <hr>
@@ -13,36 +13,36 @@ It defines conditions under which approval is procedurally invalid.</p>
 <p>AI-generated evaluation results,
 performance metrics,
 or optimization outputs
-shall not constitute sufficient grounds for approval.</p>
-<p>Human written justification is mandatory.</p>
+shall not constitute sufficient grounds for approval.<span class="ja-pair" lang="ja">AI によって生成された評価結果、パフォーマンス指標、または最適化の出力は、承認のための十分な根拠を構成するものではありません。</span></p>
+<p>Human written justification is mandatory.<span class="ja-pair" lang="ja">人間による記述理由は必須です。</span></p>
 <hr>
 <h2 id="2-human-judgment-requirement-人間判断要件">2. Human Judgment Requirement ｜ 人間判断要件</h2>
-<p>For each major release, update, or deployment:</p>
+<p>For each major release, update, or deployment:<span class="ja-pair" lang="ja">各メジャー リリース、アップデート、またはデプロイメントについて:</span></p>
 <ul>
-<li>A named human reviewer must provide written reasoning.</li>
-<li>The reasoning must address why continuation was not stopped.</li>
-<li>Mere acknowledgment of AI outputs is insufficient.</li>
+<li>A named human reviewer must provide written reasoning.<span class="ja-pair" lang="ja">特定可能な人間のレビュー担当者は、記述理由を提供する必要があります。</span></li>
+<li>The reasoning must address why continuation was not stopped.<span class="ja-pair" lang="ja">推論では、なぜ継続が停止されなかったのかを説明する必要があります。</span></li>
+<li>Mere acknowledgment of AI outputs is insufficient.<span class="ja-pair" lang="ja">AI の成果を単に評価するだけでは不十分です。</span></li>
 </ul>
 <p>If no written reasoning exists,
-approval is invalid.</p>
+approval is invalid.<span class="ja-pair" lang="ja">書面による理由付けが存在しない場合、承認は無効となります。</span></p>
 <hr>
 <h2 id="3-closed-loop-prohibition-procedural-閉ループ禁止-手続上">3. Closed-Loop Prohibition (Procedural) ｜ 閉ループ禁止（手続上）</h2>
-<p>If an AI system:</p>
+<p>If an AI system:<span class="ja-pair" lang="ja">AI システムの場合:</span></p>
 <ul>
-<li>Generates its own evaluation criteria,</li>
-<li>Evaluates its own outputs,</li>
-<li>Approves its own modifications,</li>
+<li>Generates its own evaluation criteria,<span class="ja-pair" lang="ja">独自の評価基準を生成し、</span></li>
+<li>Evaluates its own outputs,<span class="ja-pair" lang="ja">自身の出力を評価し、</span></li>
+<li>Approves its own modifications,<span class="ja-pair" lang="ja">独自の変更を承認し、</span></li>
 </ul>
-<p>without independent human validation,</p>
-<p>the approval shall be considered procedurally invalid.</p>
+<p>without independent human validation,<span class="ja-pair" lang="ja">独立した人間による検証がなければ、</span></p>
+<p>the approval shall be considered procedurally invalid.<span class="ja-pair" lang="ja">承認は手続上不成立とみなされます。</span></p>
 <hr>
 <h2 id="4-reversibility-confirmation-可逆性確認">4. Reversibility Confirmation ｜ 可逆性確認</h2>
-<p>Before deployment, confirm:</p>
+<p>Before deployment, confirm:<span class="ja-pair" lang="ja">展開する前に、次のことを確認してください。</span></p>
 <ul>
-<li>Human intervention remains technically possible.</li>
-<li>Operational halt can be executed.</li>
-<li>Responsibility attribution is defined.</li>
+<li>Human intervention remains technically possible.<span class="ja-pair" lang="ja">人間による介入は引き続き技術的に可能です。</span></li>
+<li>Operational halt can be executed.<span class="ja-pair" lang="ja">運用停止を実行できます。</span></li>
+<li>Responsibility attribution is defined.<span class="ja-pair" lang="ja">責任の帰属が定義されています。</span></li>
 </ul>
 <p>If reversibility cannot be demonstrated,
-approval is invalid.</p>
+approval is invalid.<span class="ja-pair" lang="ja">可逆性が証明できない場合には承認は無効となります。</span></p>
 </main><footer>Non-binding public reference. It does not certify, direct, or determine compliance. ｜ 非拘束の公開参照資料です。</footer></div></body></html>
