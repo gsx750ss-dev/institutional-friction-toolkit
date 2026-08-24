@@ -4,47 +4,42 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="l30:lang-lock" content="JP_ONLY">
-  <meta name="description" content="AIによる雇用・技能・組織能力・責任経路の変化が回復困難になる前に、社会的摩擦がなぜ必要かを考える非拘束の公開参照資料。">
+  <meta name="description" content="AIが社会へ深く組み込まれた後も、人間が実効的に止め、確かめ、考え直せる余地を残すための社会的摩擦を考える公開参照資料。">
   <title>社会的摩擦の必要性｜LUMINA-30</title>
   <style>
-    :root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 68%,Canvas 32%);--line:color-mix(in srgb,CanvasText 28%,Canvas 72%);--panel:color-mix(in srgb,Canvas 93%,CanvasText 7%);--soft:color-mix(in srgb,Canvas 86%,CanvasText 14%);--accent:LinkText}
-    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.72}a{color:var(--accent)}.page{max-width:980px;margin:auto;padding:24px 18px 64px}.nav,.notice,.card{border:1px solid var(--line);background:var(--panel);border-radius:16px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:22px}.nav a,.button{display:inline-block;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none}header{border-bottom:1px solid var(--line);padding-bottom:18px}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:.2em 0}h2{margin-top:2em;border-top:1px solid var(--line);padding-top:.55em}h3{margin-bottom:.3em}.lead,.muted{color:var(--muted)}.notice,.card{padding:15px;margin:16px 0}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:13px}.grid .card{margin:0}table{width:100%;border-collapse:collapse;margin:14px 0}th,td{border:1px solid var(--line);padding:9px;text-align:left;vertical-align:top}footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted)}
+    :root{color-scheme:light dark;--bg:Canvas;--text:CanvasText;--muted:color-mix(in srgb,CanvasText 68%,Canvas 32%);--line:color-mix(in srgb,CanvasText 28%,Canvas 72%);--panel:color-mix(in srgb,Canvas 93%,CanvasText 7%);--soft:color-mix(in srgb,Canvas 86%,CanvasText 14%);--accent:LinkText;--focus:color-mix(in srgb,LinkText 13%,Canvas 87%)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.76}a{color:var(--accent)}.page{max-width:980px;margin:auto;padding:24px 18px 64px}.nav,.notice,.card,.question,.takeaway{border:1px solid var(--line);background:var(--panel);border-radius:16px}.nav{display:flex;flex-wrap:wrap;gap:9px;padding:11px;margin-bottom:22px}.nav a,.button{display:inline-block;padding:7px 11px;border:1px solid var(--line);border-radius:999px;background:var(--soft);text-decoration:none}header{border-bottom:1px solid var(--line);padding:8px 0 24px}h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.12;margin:.2em 0}h2{margin-top:2.2em;border-top:1px solid var(--line);padding-top:.7em}h3{margin:.1em 0 .35em}.lead,.muted{color:var(--muted)}.lead{font-size:1.12rem}.notice,.card,.question,.takeaway{padding:17px;margin:16px 0}.question{background:var(--focus);font-size:clamp(1.15rem,2.8vw,1.5rem);font-weight:700}.takeaway{text-align:center;padding:24px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:13px}.grid .card{margin:0}.flow{display:grid;gap:9px;margin:18px 0}.step{border-left:5px solid var(--line);padding:10px 14px;background:var(--panel);border-radius:0 12px 12px 0}.contrast{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:13px}.bad{border-top:5px solid #a64242}.good{border-top:5px solid #287b55}.label{font-weight:700;letter-spacing:.02em}.actions{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}blockquote{margin:18px 0;padding:4px 0 4px 18px;border-left:5px solid var(--line);font-size:1.08rem}footer{margin-top:38px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted)}
   </style>
 </head>
 <body><div class="page">
-<nav class="nav" aria-label="ページ内案内"><a href="index-ja.html">ツールキット</a><a href="societal-friction-research-starter.html">English</a><a href="#research-questions">未解決の問い</a><a href="#pilot">パイロット</a><a href="https://github.com/lumina-30/institutional-friction-toolkit">GitHubソース</a></nav>
-<header><p class="muted">制度摩擦ツールキット · 公開参照</p><h1>社会的摩擦の必要性</h1><p class="lead">AIによる雇用・技能・組織能力・責任経路の変化が回復困難になる前に、停止・検証・修正・再参入の余地をなぜ残す必要があるのかを考えるための公開参照資料です。</p></header>
-<section class="notice"><strong>位置づけと限界</strong><p>これは非拘束の公開参照資料であり、政策命令、労働市場予測、認証制度、安全保証、またはLUMINA-30だけで雇用喪失や社会的損失を防げるとの主張ではありません。後半の未解決の問いと仮説は、既存研究との比較と実証を必要とします。LUMINA-30への採用・支持・同意は不要であり、重複、失敗、批判、反証も有効な成果です。</p></section>
-<section><h2>問題設定</h2><p>AI導入は便益を生み得る一方、仕事、技能形成、組織の知識、責任経路を変化させます。可逆的な影響もありますが、依存、置換、能力喪失が蓄積した後には、回復が高コストまたは実質不可能になる場合があります。下流の決定的証拠を待つこと自体が、対応に必要な選択肢を失わせる可能性があります。</p><p>ここでいう<strong>摩擦</strong>は、進歩の禁止や一律の導入減速ではありません。影響の大きい移行が回復困難になる前に、時間、権限、証拠、停止条件、修正経路、人間の再参入可能性を比例的に残す仕組みを指します。</p></section>
-<section><h2>設計候補の層</h2><div class="grid">
-<article class="card"><h3>導入</h3><p>段階導入、限定範囲、停止条件、撤回または代替能力、再審査。</p></article>
-<article class="card"><h3>雇用と技能</h3><p>移行経路、実務経験の保持、訓練能力、労働者の発言経路、現実的な再参入可能性。</p></article>
-<article class="card"><h3>組織</h3><p>人間のノウハウ、独立検証、責任割当、証拠保存。</p></article>
-<article class="card"><h3>制度と市場</h3><p>企業単独の自発的自制だけに依存しないよう、調達・監査・業界・政策層で摩擦を対称化する。</p></article>
-</div></section>
-<section id="research-questions"><h2>まだ答えが出ていない問い</h2><ol>
-<li>雇用置換、技能空洞化、組織能力喪失、責任拡散が回復困難になりつつあることを示す指標は何か。</li>
-<li>通常の変化を不可逆的損失と誤認せず、どの程度早期に指標を観測できるか。</li>
-<li>学習と生産性を維持しながら修正能力を残す段階導入・停止条件は何か。</li>
-<li>形式的な人間承認が、どの時点で実効的拒否経路ではなくなるか。</li>
-<li>能力が実際に保持されている状態と、文書上だけの保持を何の証拠で区別できるか。</li>
-<li>慎重な一社だけが不利にならないよう、競争下で摩擦をどう対称化できるか。</li>
-<li>事前に摩擦を定めた導入と、定めていない類似導入を比較できるか。</li>
-</ol></section>
-<section><h2>検証可能な仮説と観測</h2><table><thead><tr><th>仮説</th><th>観測候補</th><th>反証候補</th></tr></thead><tbody>
-<tr><td>事前に定めた停止条件は修正能力を保持する。</td><td>停止までの時間、実際に行使された権限、縮小された範囲、拡張前に確認された証拠。</td><td>条件が常に迂回される、遅すぎる、または修正能力を測定可能な形で増やさない。</td></tr>
-<tr><td>人間の実務経験と訓練能力の保持は再参入を改善する。</td><td>回復時間、保持された専門性、重要業務の再開能力、再開後の品質。</td><td>保持策が回復を改善せず、能力を残さないまま費用だけを生む。</td></tr>
-<tr><td>対称的摩擦は一組織の自発的自制より持続する。</td><td>迂回率、競争上の置換、調達適用範囲、業界採用と例外。</td><td>自発策も同等に持続する、または対称化が成果を改善せず回避だけを生む。</td></tr>
-</tbody></table></section>
-<section id="pilot"><h2>小規模な実証パイロット</h2><ol>
-<li>撤回コストが高くなり得る、境界の明確なAI導入を一件選ぶ。</li>
-<li>現行の意思決定、影響を受ける役割、保持技能、権限、依存、証拠を記録する。</li>
-<li>一つの境界質問、停止条件、再審査間隔、責任主体、再参入経路を事前登録する。</li>
-<li>限定段階で先行指標を観測し、単一事例から因果を断定しない。</li>
-<li>可能なら過去、並行、または条件を合わせた導入と比較する。</li>
-<li>肯定結果とともに、限界、否定結果、迂回、未解決変数を公開する。</li>
-</ol><p><a class="button" href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/one-question-pilot.html">One-Question Pilotを開く</a></p></section>
-<section><h2>最低限の証拠記録</h2><ul><li>何が、誰にとって回復困難になり得るか。</li><li>観測前に、どの指標と閾値を選んだか。</li><li>誰が停止・拒否・検証・方向転換・是正できたか。</li><li>どの技能、組織能力、代替手段、再参入経路を保持したか。</li><li>外注化、組織再編、高速化、不透明化、責任拡散で摩擦を迂回できたか。</li><li>何が観測されれば仮説に反するのか。</li></ul></section>
-<section><h2>研究・批判への招待</h2><p>AI、経済、労働、組織、公共政策、安全、ガバナンス、HCIの研究者は、この課題を利用、修正、比較、または否定できます。既存研究との重複、摩擦策の失敗、便益を上回る費用、別の枠組みの方が境界をよく測定できることの提示も有用な成果です。</p><p>求める次の一歩は支持ではありません。提案された境界に賛成・反対する証拠を生み出せる、小さく検証可能な研究です。</p></section>
+<nav class="nav" aria-label="ページ内案内"><a href="index-ja.html">ツールキット</a><a href="societal-friction-research-starter.html">English</a><a href="#quiet">静かな不可逆化</a><a href="#friction">良い摩擦</a><a href="#roles">自分の領域で考える</a><a href="https://github.com/lumina-30/institutional-friction-toolkit">GitHubソース</a></nav>
+<header><p class="muted">制度摩擦ツールキット · 公開参照</p><h1>社会的摩擦の必要性</h1><p class="lead">AIが便利になるほど、私たちは少しずつ多くの判断を任せるようになります。最初は補助だったものが自動化され、人間による確認、人員、手作業の手順、旧システムや代替手段も少しずつ減っていきます。</p><p>それ自体は、効率化の自然な結果かもしれません。</p><div class="question">しかし、「問題が起きたら止めればいい」は、いつまで本当に可能なのでしょうか。</div></header>
+
+<section class="notice"><strong>位置づけと限界</strong><p>これは非拘束の公開参照資料です。AIの一律停止、政策命令、認証制度、安全保証、労働市場予測ではありません。LUMINA-30だけで社会的損失を防げるとも主張しません。採用・支持・同意は不要であり、既存研究や成熟した実務がこの問題を十分扱っているなら、それも重要な結論です。</p></section>
+
+<main>
+<section id="quiet"><h2>変化は、静かに戻りにくくなる</h2><p>導入したばかりなら、人間が代わりに作業できます。AIの判断に疑問があれば確認でき、うまくいかなければ以前の方法へ戻せます。</p><div class="flow" aria-label="AI依存が進む時間軸"><div class="step"><strong>補助</strong> — 人間の仕事をAIが支える</div><div class="step"><strong>確認の縮小</strong> — 自動化を前提に、人間の確認が減る</div><div class="step"><strong>能力の喪失</strong> — 人員、技能、手動手順、旧システムが減る</div><div class="step"><strong>依存</strong> — AIなしでは通常業務を維持しにくくなる</div><div class="step"><strong>問題の発見</strong> — 停止権限はあるが、止めると機能そのものが止まる</div></div><blockquote><strong>導入時に止められたことと、5年後にも止められることは同じではありません。</strong></blockquote></section>
+
+<section><h2>人間がいるだけでは足りない</h2><p>人間が画面の前にいる。承認ボタンもある。規程には停止権限も書かれている。それでも、判断する時間がなく、AIの根拠も分からず、停止後の代替手段もなければ、その人は本当に「NO」と言えるでしょうか。</p><p><strong>Human-in-the-loopであることと、人間の拒否が実効的であることは同じではありません。</strong></p><div class="grid"><article class="card"><h3>判断できる</h3><p>必要な情報、検討する時間、理由を確かめる手段がある。</p></article><article class="card"><h3>止められる</h3><p>明確な権限があり、技術的にも停止・保留・方向転換できる。</p></article><article class="card"><h3>止めても耐えられる</h3><p>手動運用、代替事業者、旧システム、再開手順などが残っている。</p></article></div></section>
+
+<section><h2>問題は、AIの誤りだけではない</h2><p>AIが高精度でも、この問題は残ります。社会で重要になるのは誤答率だけではなく、速度、規模、依存、責任の分散、そして取り返しにくさだからです。</p><p>採用、融資、保険、医療、福祉、行政、教育、契約、資金移動、大規模公開、インフラや物理的実行では、結果が広がった後の修復が難しい場合があります。</p></section>
+
+<section id="friction"><h2>社会的摩擦とは何か</h2><p>ここでいう社会的摩擦は、AIをむやみに遅くすることでも、すべての利用に会議や承認印を増やすことでもありません。</p><div class="question">取り返しにくい結果へ進む前に、人間がまだ確認し、止め、考え直し、別の道を選べる余地を残すことです。</div><p><strong>問題はAIを使うか使わないかではありません。AIを使いながら、人間がまだNOと言える状態を残せるかです。</strong></p>
+<div class="contrast"><article class="card bad"><h3>悪い摩擦</h3><ul><li>署名するだけの人間承認</li><li>実際には覆せない決定</li><li>利用すると諦めたくなる異議申立</li><li>責任者が不明なままの確認</li><li>独立検証なしの「human review」</li></ul></article><article class="card good"><h3>良い摩擦</h3><ul><li>十分な情報と判断時間</li><li>人間への到達と再審査</li><li>明確な停止権限と技術的停止能力</li><li>fallback、手動運用、safe restart</li><li>証拠、ログ、退出・移行可能性</li></ul></article></div></section>
+
+<section><h2>取り返しにくさに比例させる</h2><p>社内文書の要約と契約の締結。下書きの作成と100万人への公開。推薦と取消不能な処理。同じ扱いである必要はありません。</p><p><strong>取り返しにくさが大きくなる場所ほど、人間の選択肢を厚く残す。</strong>それが比例的な摩擦です。</p><blockquote><strong>小さな事前摩擦は、大きな事後修復を避けるためにある。</strong></blockquote></section>
+
+<section><h2>制度の中にも「戻れる余地」を作れる</h2><p>社会的摩擦は、新しい規制を一つ増やすこととは限りません。すでにある制度や実務の中でも、将来の選択肢を残せます。</p><div class="grid"><article class="card"><h3>確定前に考え直す</h3><p>高影響な判断への短い保留期間、人間による再審査、実効的な異議申立。</p></article><article class="card"><h3>小さく始める</h3><p>限定導入、段階展開、拡大を止める条件、定期的な見直しや終了条件。</p></article><article class="card"><h3>止めた後を残す</h3><p>手動運用、代替事業者、旧システム、データ移行、退出可能性、安全な再開。</p></article><article class="card"><h3>止める主体を決める</h3><p>誰が、どの条件で、何を根拠に、どこまで停止できるかを事前に明確にする。</p></article></div><p><strong>良い制度とは、AIを止める制度とは限りません。必要になったときに「止める」という選択肢がまだ残っている制度かもしれません。</strong></p></section>
+
+<section><h2>公共調達は、将来の選択肢を残せる</h2><p>政府や公共機関は規制する側であるだけでなく、AIを購入する側でもあります。調達時に、停止可能性、人間によるoverride、ログと証拠、代替運用、データ移行、事業者変更時の退出、重大事象時の通知を確認すれば、法律を変えなくても契約段階から戻れる余地を残せます。</p><p class="muted">これは特定の政策や調達要件をLUMINA-30が公式に要求するものではありません。それぞれの制度で検討できる翻訳例です。</p></section>
+
+<section id="roles"><h2>同じ問いでも、見えるものは立場によって変わる</h2><div class="grid"><article class="card"><h3>市民</h3><p>AIによる判断に納得できないとき、実際に人間へ異議を届けられること。</p></article><article class="card"><h3>現場</h3><p>異常に気付いた人が、時間と情報を持ち、本当に停止できること。</p></article><article class="card"><h3>経営</h3><p>効率化しながら、AI停止と同時に事業全体が止まらない能力を残すこと。</p></article><article class="card"><h3>開発</h3><p>公開、契約、資金移動、物理実行の前に、最後に安全に戻れる地点を設計すること。</p></article><article class="card"><h3>監査・ガバナンス</h3><p>「人間が承認した」という記録ではなく、その人が実際に拒否できた証拠を見ること。</p></article><article class="card"><h3>政府・公共機関</h3><p>異議申立、段階導入、調達条件、停止権限、代替運用、定期見直しへ翻訳すること。</p></article><article class="card"><h3>研究</h3><p>既存のhuman factors、resilience、assurance、safety、governance等で十分扱われているのか、別の観測単位に価値があるのかを問うこと。</p></article></div></section>
+
+<section><h2>この問題を一つの問いにすると</h2><div class="question">不可逆化する前に、人間は実効的に拒否・停止・検証・方向転換できたか？</div><p>LUMINA-30は、AIが安全かどうかをこの一問だけで判断するものではありません。既存の安全、監査、ガバナンス、リスク管理などの中で、<strong>「人間のNOが、本当にまだ効くのか」</strong>という境界が見落とされていないかを見るための問いです。</p><p>LUMINA-30は、この問題が新規であることを前提にしません。既存研究や成熟した実務で十分なら、それも重要な結論です。</p></section>
+
+<section><h2>一つの問いから、違う実装が生まれてよい</h2><p>ある組織では停止手順、ある企業では調達条件や契約条項、ある行政では異議申立や人間による再審査、ある開発チームでは取消不能な実行前の確認点、ある研究室では既存研究との比較になるかもしれません。</p><p>LUMINA-30は、それらを一つの制度へ統一することを求めません。<strong>それぞれの社会や組織が、自分たちに必要な「戻れる余地」を設計するための共通の問いを提供します。</strong></p></section>
+
+<section class="takeaway"><h2>持ち帰るものは、一つで十分です</h2><p>次にAIについて重要な判断をするとき、</p><div class="question">「この先へ進んだ後でも、まだ人間はNOと言えるだろうか」</div><p>という問いを一度思い出してください。そこから、あなたの立場に必要な仕組みが見えてくるかもしれません。</p><div class="actions"><a class="button" href="index-ja.html">制度摩擦ツールキットを見る</a><a class="button" href="https://lumina-30.github.io/lumina-30-overview/tools/pre-incident-boundary-review/ja/one-question-pilot.html">一つの問いを具体的に見る</a></div></section>
+</main>
 <footer><p>LUMINA-30 独立公開参照フレームワーク。非拘束・非認証であり、批判に開かれています。</p></footer>
 </div></body></html>
